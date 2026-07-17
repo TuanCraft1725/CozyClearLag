@@ -1,0 +1,31 @@
+messages:
+  no_permission: "&7Bạn không có quyền sử dụng lệnh này!"
+  player_only: "&7Lệnh này chỉ có thể được thực hiện bởi người chơi!"
+  reloaded: "&7Đã tải lại cấu hình &b&lCozyClearLag&7 thành công!"
+  unknown_command: "&7Lệnh không hợp lệ! Dùng &b/cozyclearlag help &7để xem hướng dẫn."
+
+  help:
+    - "&b&l--- CozyClearLag ---"
+    - "&b/cozyclearlag clear items &7- Dọn item rơi ngay lập tức"
+    - "&b/cozyclearlag clear projectiles &7- Dọn đạn bay ngay lập tức"
+    - "&b/cozyclearlag clear all &7- Dọn cả item và đạn bay"
+    - "&b/cozyclearlag abyss &7- Mở kho Vực Thẳm để lấy lại item đã xóa"
+    - "&b/cozyclearlag reload &7- Tải lại cấu hình"
+
+  countdown:
+    warning: "&e&lCảnh báo! &7Sau &b%seconds% &7giây nữa, server sẽ dọn item rơi và đạn bay!"
+
+  clear:
+    items_done: "&7Đã dọn thành công &b%items%x &7item rơi!"
+    projectiles_done: "&7Đã dọn thành công &b%projectiles%x &7đạn bay!"
+    all_done: "&7Đã dọn thành công &b%items%x &7item và &b%projectiles%x &7đạn bay!"
+    items_disabled: "&7Tính năng dọn item đang bị tắt trong cấu hình!"
+    projectiles_disabled: "&7Tính năng dọn đạn bay đang bị tắt trong cấu hình!"
+
+  abyss:
+    disabled: "&7Vực Thẳm đang bị tắt trong cấu hình!"
+    empty: "&7Vực Thẳm hiện đang &9trống&7, chưa có item nào bị xóa gần đây!"
+    opened: "&7Đã mở kho &9Vực Thẳm&7! Hãy lấy lại item của bạn."
+    closed_notice: "&7Vực Thẳm sẽ tự đóng sau &b%seconds% &7giây nữa."
+    gui:
+      title: "Vực Thẳm - Item đã xóa"
