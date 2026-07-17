@@ -1,0 +1,30 @@
+name: CozyClearLag
+version: 1.0.0
+main: xyz.cozy.cozyclearlag.CozyClearLag
+author: You
+api-version: 1.20
+description: Dọn dẹp item rơi và đạn bay để giảm lag server, không đụng tới quái vật/sinh vật.
+website: https://example.com
+
+commands:
+  cozyclearlag:
+    description: Lệnh chính của CozyClearLag
+    usage: /<command> [help|clear|abyss|reload]
+    aliases: [ccl, clearlag]
+
+permissions:
+  cozyclearlag.admin:
+    description: Toàn quyền sử dụng CozyClearLag (reload, clear, cấu hình)
+    default: op
+  cozyclearlag.clear.items:
+    description: Cho phép dọn item rơi bằng lệnh
+    default: op
+  cozyclearlag.clear.projectiles:
+    description: Cho phép dọn đạn bay bằng lệnh
+    default: op
+  cozyclearlag.abyss:
+    description: Cho phép mở kho Vực Thẳm (Abyss) để lấy lại item đã bị xóa
+    default: true
+  cozyclearlag.alerts.bypass:
+    description: Không nhận thông báo đếm ngược trước khi dọn dẹp
+    default: false
