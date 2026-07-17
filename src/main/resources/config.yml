@@ -1,0 +1,66 @@
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+# ░ CozyClearLag - Cấu hình chính
+# ░ Dọn item rơi & đạn bay để giảm lag server.
+# ░ Plugin này KHÔNG xóa quái vật/sinh vật (mob).
+# ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+prefix: "&8[&b&lCozyClearLag&8] "
+
+worlds:
+  - '*'
+
+auto_clear_interval: 1200
+
+alerts:
+  enabled: true
+  message: true
+  actionbar: false
+  countdown_seconds:
+    - 15
+    - 10
+    - 5
+    - 3
+    - 2
+    - 1
+
+items:
+  enabled: true
+
+  time_lived:
+    enabled: true
+    value: 10000
+
+  blacklist:
+    - BEACON
+    - NETHER_STAR
+
+  abyss:
+    enabled: true
+    close_after: 60
+    blacklist:
+      - BEDROCK
+      - BEACON
+
+projectiles:
+  enabled: true
+
+  list_mode: true
+
+  list:
+    - ARROW
+    - SPECTRAL_ARROW
+    - TRIDENT
+    - SNOWBALL
+    - EGG
+    - ENDER_PEARL
+    - EXPERIENCE_BOTTLE
+    - FIREBALL
+    - SMALL_FIREBALL
+    - DRAGON_FIREBALL
+    - WITHER_SKULL
+    - SHULKER_BULLET
+    - LLAMA_SPIT
+    - SPLASH_POTION
+    - LINGERING_POTION
+
+debug: false
